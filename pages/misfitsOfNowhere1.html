@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<title>Rainy Day Media - Home</title>
+    
+<head>
+    <link rel="stylesheet" href="../styles/default.css">
+    <link rel="stylesheet" href="../styles/banner.css">
+    <link rel="stylesheet" href="../styles/tabs.css">
+    <link rel="stylesheet" href="../styles/2Column">
+    <script src='../scripts/tabs.js'></script>
+</head>
+    
+<body>
+
+<div class="header">
+  <h1 style="font-size:24px;">Rainy Day Media </h1>
+</div> 
+    
+<div class="navbar">
+  <a href="../index.html">Home</a>
+  <a href="#news">About</a>
+  <div class="dropdown">
+    <button class="dropbtn">Music 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Compositions</a>
+      <a href="#">Link 2</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Writing
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Short Stories</a>
+      <a href="#">Misfits of Nowhere</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Games
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Bytes</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Images
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+</div>
+
+<div class="main-content">
+  <button class="tablink" onclick="openPage('Origins', this, '#333')">1: Origins</button>
+  <button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
+  <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
+  <button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
+
+  <div id="Origins" class="tabcontent">
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <h2>Column 1</h2>
+        <p>Some text..</p>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+        <h2>Column 2</h2>
+        <p>Some text..</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="News" class="tabcontent">
+    <h3>News</h3>
+    <p>Some news this fine day!</p> 
+  </div>
+
+  <div id="Contact" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Get in touch, or swing by for a cup of coffee.</p>
+  </div>
+
+  <div id="About" class="tabcontent">
+    <h3>About</h3>
+    <p>Who we are and what we do.</p>
+  </div>
+</div>   
+   
+<footer>
+  <p>Contact information: <a href="rainydaymedia@protonmail.com" style="color:lightblue"> rainydaymedia@protonmail.com </a></p>
+</footer> 
+
+</body>
+</html> 
