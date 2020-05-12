@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <title>Rainy Day Media - Home</title>
     
 <head>
